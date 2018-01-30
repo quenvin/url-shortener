@@ -1,0 +1,64 @@
+body {
+  background-image: url(/imgs/home_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section#errURL .invalid {
+  text-align: center;
+}
+
+section#shorten_body .main_body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+section#shorten_body .col-12 {
+  padding: 10px;
+  background-color: rgba(168, 194, 255, 0.21)
+}
+
+section#shorten_body .headline {
+  font-size: 50px;
+  background-color:  rgba(168, 194, 255, 0.21);
+  border: rgba(26, 69, 168, 0.81);
+  border-style: dotted;
+  border-radius: 20px; 
+}
+
+section#shorten_body .img-fluid {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+section#shorten_body .intro {
+  font-size: 20px;
+}
+
+section#shorten_body .main_body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+section#shorten_page {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: rgba(189, 206, 245, 0.5)
+}
+
+section#shorten_page .img-fluid {
+  margin-bottom: 30px;
+  
+}
+
+section#shorten_page .myLink {
+  font-size: 30px;
+}

@@ -1,0 +1,39 @@
+<section id="errURL">
+  <div class="container-liqud">
+    <div class="12">
+      <div class="invalid">
+        {{#if invalidURL}}
+            <div class="alert alert-danger" role="alert">*** Invalid Link: <strong>( /{{invalidURL}} )</strong> ***
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="shorten_body">
+    <div class="container main_body">
+        <div class="row">
+            <div class="col-12">
+                <p class="headline">
+                    <strong>URL Shortener</strong>
+                </p>
+            </div>
+            <div class="col-12 ">
+              <img class="img-fluid" src="/imgs/logo.png" alt="Logo">
+            </div>
+            <div class="col-12 intro">
+                <form action="/shorten" method="post">
+                    <label for="inputFullURL">Input the full URL which you want to shorten here.</label>
+            </div>
+            <div class="col-12">
+                <input type="url" name="inputFullURL" id="inputFullURL">
+            </div>
+            <div class="col-12">
+                <button type="submit">Convert Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
